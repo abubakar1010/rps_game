@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .parent{
@@ -18,6 +19,10 @@ body{
     align-items: center;
     flex-direction: column;
     
+}
+
+.hidden{
+    display: none;
 }
 
 #choice-container{
@@ -49,4 +54,20 @@ body{
     box-shadow: 0 0 4px rgb(236, 61, 222);
     color: white;
     font-size: 19px;
+}
+
+#start{
+
+    background: rgb(27, 184, 142);
+    color: white;
+    padding: 12px 39px;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgb(27, 184, 142);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+
 }
